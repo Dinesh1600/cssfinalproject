@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="imagestv/samsunglogo.png" alt="Product Logo"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contact">
+      <h1>Contact Us</h1>
+      <form action="submit-form.php" method="POST">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-control">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-info">
+      <h3>About Us</h3>
+      <p>At Samsung, we're not just about products, we're about possibilities - unlocking new horizons and driving innovation to inspire and enrich the lives of people globally</p>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>Address: 123 Main Street</li>
+        <li>Phone: 555-555-5555</li>
+        <li>Email: info@productwebsite.com</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
